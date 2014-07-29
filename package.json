@@ -1,6 +1,6 @@
 {
   "name": "resolve-parent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolves file or directory deep down in the directory tree",
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,18 @@
     "path"
   ],
   "author": {
-    "name": "Andrius Skerla"
+    "name": "Andrius Skerla",
+    "email": "andrius@skerla.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^1.9.1",
     "coffee-script": "^1.7.1",
     "mocha": "^1.21.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rainder/resolve-parent.git"
   },
   "readme": "ERROR: No README data found!",
   "_id": "resolve-parent@1.0.0",
