@@ -1,7 +1,5 @@
 # resolve-parent
 
-##### Description
-
 Resolves closest package.json file in a CWD tree
 
 #### Instalation
