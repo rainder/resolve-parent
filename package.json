@@ -1,0 +1,27 @@
+{
+  "name": "resolve-parent",
+  "version": "1.0.0",
+  "description": "Resolves file or directory deep down in the directory tree",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "keywords": [
+    "resolve",
+    "directory",
+    "path"
+  ],
+  "author": {
+    "name": "Andrius Skerla"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.21.3"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "resolve-parent@1.0.0",
+  "_shasum": "3f0465d22b489a7adcc142aa304848b44a2f1a7f",
+  "_from": "resolve-parent@"
+}
