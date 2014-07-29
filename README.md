@@ -1,3 +1,5 @@
+Resolves closest package.json file in a CWD tree
+
 ```coffeescript
 resolveParent = require('resolve-parent')
 
@@ -6,4 +8,3 @@ path = resolveParent('package.json')
 # will find package.json file in
 # /what/../ever/package.json
 ```
-will resolve closest package.json file in a CWD tree
