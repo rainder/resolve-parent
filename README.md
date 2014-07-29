@@ -1,5 +1,11 @@
 Resolves closest package.json file in a CWD tree
 
+* Instalation
+
+```bash
+```
+
+
 ```coffeescript
 resolveParent = require('resolve-parent')
 
