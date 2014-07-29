@@ -1,10 +1,15 @@
+# resolve-parent
+
+##### Description
+
 Resolves closest package.json file in a CWD tree
 
-* Instalation
+#### Instalation
 
 ```bash
+npm install resolve-parent
 ```
-
+#### Usage
 
 ```coffeescript
 resolveParent = require('resolve-parent')
