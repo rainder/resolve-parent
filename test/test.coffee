@@ -18,3 +18,4 @@ describe 'Resolve Parent Module', ->
     expect(resolveParent('package.json')).to.be.equal path.resolve(__dirname, '../package.json')
     expect(resolveParent('resolve-parent')).to.be.equal path.resolve(__dirname, '..')
     expect(resolveParent('resolve-parent/package.json')).to.be.equal path.resolve(__dirname, '../package.json')
+    expect(resolveParent('var', '/var/log')).to.be.equal '/var'

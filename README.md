@@ -28,3 +28,15 @@ path = resolveParent('some/dir/package.json')
 # will find package.json file in
 # /what/../ever/some/dir/package.json
 ```
+
+
+specify base directory to search from
+
+```coffeescript
+resolveParent = require('resolve-parent')
+
+path = resolveParent('z/package.json', '/var/www/a/b/c/d')
+# /what/../ever/src/lib/index.coffee 
+# will find package.json file in
+# /var/www/z/package.json
+```

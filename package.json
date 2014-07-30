@@ -1,6 +1,6 @@
 {
   "name": "resolve-parent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Resolves file or directory deep down in the directory tree",
   "main": "index.js",
   "scripts": {
