@@ -1,6 +1,6 @@
 # resolve-parent
 
-Resolves closest package.json file in a CWD tree
+Resolves closest file/directory in a CWD tree
 
 #### Instalation
 
